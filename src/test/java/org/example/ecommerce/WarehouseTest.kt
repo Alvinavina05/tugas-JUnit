@@ -32,5 +32,4 @@ class OrderStateTest {
         assertFalse(order.isFilled())
         assertEquals(20, warehouse.getInventory(MOUSE))
     }
-
 }
